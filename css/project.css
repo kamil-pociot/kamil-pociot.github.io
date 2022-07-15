@@ -1,6 +1,5 @@
 .page-body {
   max-width: 1200px;
-  padding: 0 20px;
   margin: 0 auto;
   text-align: center;
 }
@@ -24,7 +23,8 @@
   flex-direction: column;
   padding: 1rem;
   border-radius: 20px;
-  max-width: 350px;
+  flex: 1 0 32.1%;
+  max-width: 400px;
 }
 
 .project-card > h4 {
