@@ -1,7 +1,20 @@
+.page-body {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-body > h3 {
+  font-size: 2rem;
+}
+
 .project-card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 2rem;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .project-card {
@@ -11,7 +24,7 @@
   flex-direction: column;
   padding: 1rem;
   border-radius: 20px;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .project-card > h4 {
@@ -32,7 +45,7 @@
   align-items: center;
   background-color: #0084ff;
   color: white;
-  padding: 10px 60px;
+  padding: 10px 40px;
   text-decoration: none;
   border-radius: 20px;
 }
