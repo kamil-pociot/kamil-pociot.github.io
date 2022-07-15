@@ -3,22 +3,45 @@
     <meta charset="utf-8">
     <title>Kamil Pociot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&subset=latin"
+          rel="preload" as="font">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/project.css">
 
     <meta name="theme-color" content="#fafafa">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCXGS2YPL1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-QCXGS2YPL1');
     </script>
 </head>
 <body>
-<p>Initial commit</p>
-<a href="sudoku-solver">Sudoku solver</a>
+<section class="page-header">
+    <h1>Kamil Pociot</h1>
+    <h2>Software engineer</h2>
+</section>
+<section class="page-body">
+    <h3>Pet projects</h3>
+    <div class="project-card-container">
+        <div class="project-card">
+            <img src="./images/sudoku.png" alt="">
+            <h4>Sudoku solver</h4>
+            <a href="sudoku-solver">OPEN</a>
+            <p>Application for solving any sudoku puzzle within seconds. Algorithm uses backtracking
+                to recursively (using stack) calculate solution. Custom optimization added to identify unnecessary
+                iterations. </p>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>

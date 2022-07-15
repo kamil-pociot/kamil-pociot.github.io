@@ -260,3 +260,13 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+section {
+  max-width: 840px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
