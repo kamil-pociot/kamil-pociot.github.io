@@ -1,0 +1,1 @@
+{"version":3,"sources":["page-header.css"],"names":[],"mappings":"AAAA,aACE,wBAAyB,CACzB,UACF,CAEA,qBACE,gBAAiB,CACjB,iBAAkB,CAClB,aACF","file":"page-header.60f53669.css","sourceRoot":"..","sourcesContent":[".page-header {\n  background-color: #0084ff;\n  color: white;\n}\n\n.page-header-content {\n  max-width: 1200px;\n  padding: 20px 50px;\n  margin: 0 auto;\n}\n"]}
